@@ -10,7 +10,7 @@ const https_client = require('https');
 
 const app = express();
 const AWS = AWSXRay.captureAWS(require('aws-sdk'));
-const uuidv1 = require('uuid/v1');
+const uuidv1 = require('uuid');
 const async = require('async');
 const { url } = require('inspector');
 
